@@ -220,13 +220,12 @@ body{
     cursor: pointer;
 }
 .grid_row{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        background: #FFCCCC;
-        gap: 1px;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background:#FFCCCC;
    
+}
 .grid_column-2-4{
     padding-left: 20px;
     padding-right: 20px;
@@ -241,8 +240,8 @@ body{
     display: block;
     position: relative;
     background-color: white;
-    margin: 30px 0;
-    width: 200px;
+    margin: 15px 0;
+    width: 245px;
     border-radius: 5px;
     transition: transform linear 0.1s;
     will-change: transform;
@@ -610,7 +609,8 @@ header.modal-header {
         display: flex;
         flex-wrap: wrap;
         background: #FFCCCC;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 1px;
     }
     .home-filter {
         display: flex;
@@ -629,7 +629,7 @@ header.modal-header {
         display:none;
     }
     .text{
-        margin-left: 49px;
+        margin-left: 30px;
     }
 }
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -639,10 +639,6 @@ header.modal-header {
         font-size: 15px;
         width: 200px;
     }
-    .text{
-        margin-left: 30px;
-    }
-}
     .sp-img {
         width: 200px;
         display: block;
@@ -660,3 +656,4 @@ header.modal-header {
         display: block;
     }
     
+}
