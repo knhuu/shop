@@ -130,6 +130,9 @@ body{
 .home-filter_btn{
     min-width: 90px;
     margin-right: 12px;
+    padding: 10px 2px;
+    border: none;
+    background: #fff;
 }
 .home-filter_page{
     display: flex;
@@ -145,6 +148,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 .select-input_label{
     font-size: 15px;
@@ -622,6 +626,13 @@ header.modal-header {
     .text{
         margin-left: 41px;
     }
+    #nav li:first-child{
+        display:none;
+    }
+    .home-filter_btn{
+        margin-bottom: 10px;
+    }
+    
 }
 /*PC*/
 @media (min-width: 1024px){
@@ -630,6 +641,9 @@ header.modal-header {
     }
     .text{
         margin-left: 30px;
+    }
+    .select-input{
+        margin-left: 360px;
     }
 }
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -652,8 +666,11 @@ header.modal-header {
     #nav li a {
         text-decoration: none;
         line-height: 46px;
-        padding: 0px 18px;
+        padding: 0px 12px;
         display: block;
     }
+   .select-input{
+    margin-left: 100px;
+   }
     
 }
