@@ -11,12 +11,11 @@
 <body>
     <div id="main">
         <div id="header">
-            <a href=""><img class="logo" src="/logo/logo.PNG" alt=""></a>
-
+            <a href=""><img class="logo" src="./img/logo/logo.PNG" alt=""></a>
             <ul id="nav">
                 <li><a href="/home.html">Trang chủ</a></li>
                 <li><a href="sanphamnoibat.html">Nổi Bật</a></li>
-                <li><a href="#">Áo <i class="ti-angle-down"></i> </a>
+                <li><a href="./shirt.html">Áo <i class="ti-angle-down"></i> </a>
                     <ul class="subnav">
                         <li><a href="T-shirt.html">Áo thun</a></li>
                         <li><a href="Somi.html">sơ mi</a></li>
@@ -25,7 +24,7 @@
                         <li><a href="jacket.html">Áo Khoác</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Quần<i class="ti-angle-down"></i> </a>
+                <li><a href="./quan.html">Quần<i class="ti-angle-down"></i> </a>
                     <ul class="subnav">
                         <li><a href="pant.html">Quần thun</a></li>
                         <li><a href="jean.html">Quần jean</a></li>
@@ -33,7 +32,7 @@
                         <li><a href="trouser.html">Quần tây</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Đầm<i class="ti-angle-down"></i> </a>
+                <li><a href="dress.html">Đầm<i class="ti-angle-down"></i> </a>
                     <ul class="subnav">
                         <li><a href="promdress.html">Dạ hội</a></li>
                         <li><a href="ladydress.html">Tiểu thư</a></li>
@@ -42,7 +41,7 @@
 
                     </ul>
                 </li>
-                <li><a href="#">Giày<i class="ti-angle-down"></i> </a>
+                <li><a href="shoes.html">Giày<i class="ti-angle-down"></i> </a>
                     <ul class="subnav">
                         <li><a href="mshoes.html">Giày Nam</a></li>
                         <li><a href="wshoes.html">Giày Nữ</a></li>
@@ -50,7 +49,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="./phukien.html">
                         Phụ Kiện <i class="ti-angle-down"></i> </a>
                     <ul class="subnav">
                         <li><a href="./trangsuckimcuong.html">Kim Cương</a></li>
@@ -59,18 +58,8 @@
                         <li><a href="./dongho.html">Đồng hồ</a></li>
                     </ul>
                 </li>
-            </ul>
-                    <a href="#">
-                        Phụ Kiện <i class="ti-angle-down"></i> </a>
-                    <ul class="subnav">
-                        <li><a href="carat.html">Kim Cương</a></li>
-                        <li><a href="silver jewelry.html">Trang Sức Bạc</a></li>
-                        <li><a href="gold jewelry.html">Trang Sức Vàng</a></li>
-                        <li><a href="watch.html">Đồng hồ</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <div class="search_btn">
+            </ul>        
+                     <div class="search_btn">
                 <i class="search_icon ti-search"></i>
             </div>
             <div id="mobile-menu" class="mobile-menu-btn"><i class=" ti-menu"></i></div>
@@ -82,13 +71,9 @@
                 <div class="home-filter">
 
                     <span class="home-filter_label">Sắp xếp theo</span>
-                    <button class="home-filter_btn btn">Phổ biến</button>
-                    <button class="home-filter_btn btn">Mới nhất</button>
-                    <button class="home-filter_btn btn">Bán chạy</button>
-
                     <div class="select-input">
                         <span class="select-input_label">Giá</span>
-                        <i class="select-input_icon fa-solid fa-caret-down"></i>
+                        <span class="select-input_label"><i class="ti-angle-down"></i></span>
                         <ul class="select-input_list">
                             <li class="select-input_item">
                                 <a href="" class="select-input_link">Giá: Thấp đến Cao</a>
@@ -104,14 +89,15 @@
                     <div class="grid_row">
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/sp67.jpg);"></div>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp67.jpg);"></div>
                                 <h4 class="home-product-item_name">QUẦN SHORT NYLON MOGA - BLACK/RED </h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-old">350.000 đ</span>
                                     <span class="home-product-item_price-current">269.500đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
+                                        <button class="btn-view"><a href="./sp67.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>
                                     </div>
                                 </div>
 
@@ -124,7 +110,7 @@
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/SP0508.jpg);">
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp272.jpg);">
                                 </div>
                                 <h4 class="home-product-item_name">SHORT CAPSULE</h4>
                                 <div class="home-product-item_price">
@@ -132,73 +118,90 @@
                                     <span class="home-product-item_price-current">216.600đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
+                                        <button class="btn-view"><a href="./sp272.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>
                                     </div>
                                 </div>
 
                                 <div class="home-product-item_action">
                                 </div>
                                 <div class="home-product-item_sale-off">
-                                    <span class="home-product-item_sale-off-percent">30%</span>
+                                    <span class="home-product-item_sale-off-percent">43%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/SP05.webp);"></div>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp274.jpg);"></div>
                                 <h4 class="home-product-item_name">MLB - Quần dài nữ ống rộng lưng thun Basic Athleisure Small Logo</h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-current">2.690.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
+                                        <button class="btn-view"><a href="./sp274.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>
                                     </div>
+                                </div>
+                                <div class="home-product-item_action">
+                                </div>
+                                <div class="home-product-item_sale-off">
+                                    <span class="home-product-item_sale-off-percent"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/SP068.jpg);"></div>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp404.jpg);"></div>
                                 <h4 class="home-product-item_name">Quần thun ống rộng SỌC GÂN - Black/Gray</h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-old">785.000đ</span>
                                     <span class="home-product-item_price-current">530.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
+                                        <button class="btn-view"><a href="./sp404.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>
                                     </div>
                                 </div>
 
                                 <div class="home-product-item_action">
                                 </div>
                                 <div class="home-product-item_sale-off">
-                                    <span class="home-product-item_sale-off-percent">15%</span>
+                                    <span class="home-product-item_sale-off-percent">40%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/sp07.webp);"></div>
-                                <h4 class="home-product-item_name">Quần Jogger Thun Ống Bo</h4>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp132.png);"></div>
+                                <h4 class="home-product-item_name">SHORT NYLON MOGA</h4>
                                 <div class="home-product-item_price">
-                                    <span class="home-product-item_price-current">250.000đ</span>
+                                    
+                                    <span class="home-product-item_price-old">729.000đ</span>
+                                    <span class="home-product-item_price-current">475.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
+                                        <button class="btn-view"><a href="./sp132.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>
                                     </div>
+                                </div>
+                                <div class="home-product-item_action">
+                                </div>
+                                <div class="home-product-item_sale-off">
+                                    <span class="home-product-item_sale-off-percent">24%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/sp09.jpg);"></div>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp275.jpg);"></div>
                                 <h4 class="home-product-item_name">Quần short MLB NY nỉ nam nữ Unisex, Quần đùi MLB thun nam nữ Unisex</h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-old">480.000đ</span>
                                     <span class="home-product-item_price-current">290.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
+                                        <button class="btn-view"><a href="./sp275.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>
                                     </div>
                                 </div>
 
@@ -211,187 +214,231 @@
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/sp010.webp);"></div>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp276.jpg);"></div>
                                 <h4 class="home-product-item_name">DKMV Short Basic-WHITE</h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-current">517.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
+                                        <button class="btn-view"><a href="./sp276.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>
                                     </div>
+                                </div>
+                                <div class="home-product-item_action">
+                                </div>
+                                <div class="home-product-item_sale-off">
+                                    <span class="home-product-item_sale-off-percent"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/sp104.webp);"></div>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp277.jpg);"></div>
                                 <h4 class="home-product-item_name">Quần thun dài đen KENTA QTD0015</h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-old">270.000đ</span>
                                     <span class="home-product-item_price-current">189.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
+                                        <button class="btn-view"><a href="./sp277.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>
                                     </div>
                                 </div>
 
                                 <div class="home-product-item_action">
                                 </div>
                                 <div class="home-product-item_sale-off">
-                                    <span class="home-product-item_sale-off-percent">10%</span>
+                                    <span class="home-product-item_sale-off-percent">30%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/sp09.webp);"></div>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp278.jpg);"></div>
                                 <h4 class="home-product-item_name">Quần short nam nữ form rộng lưng thun</h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-old">260.000đ</span>
                                     <span class="home-product-item_price-current">200.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
+                                        <button class="btn-view"><a href="./sp278.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>
                                     </div>
                                 </div>
 
                                 <div class="home-product-item_action">
                                 </div>
                                 <div class="home-product-item_sale-off">
-                                    <span class="home-product-item_sale-off-percent">10%</span>
+                                    <span class="home-product-item_sale-off-percent">23%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/sp105.webp);"></div>
-                                <h4 class="home-product-item_name">Quần short nam nữ local brand Pandax signature , quần đùi chân cua unisex phong cách streetwear , lửng lưng thun co giãn</h4>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp1005.jpeg);"></div>
+                                <h4 class="home-product-item_name">Quần short nam nữ local brand Pandax signature</h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-old">600.000đ</span>
                                     <span class="home-product-item_price-current">330.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
+                                        <button class="btn-view"><a href="./sp1005.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>
                                     </div>
+                                </div>
+                                <div class="home-product-item_action">
+                                </div>
+                                <div class="home-product-item_sale-off">
+                                    <span class="home-product-item_sale-off-percent">45%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/sp107.webp);"></div>
-                                <h4 class="home-product-item_name">BLACK POCKET BAGGY - Quần Tây Túi Hộp Baggy</h4>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp1007.jpeg);"></div>
+                                <h4 class="home-product-item_name">POCKET BAGGY - Quần Thun Túi Baggy</h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-current">390.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
-                                    </div>
+                                        <button class="btn-view"><a href="./sp1007.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>                                    </div>
+                                </div>
+                                <div class="home-product-item_action">
+                                </div>
+                                <div class="home-product-item_sale-off">
+                                    <span class="home-product-item_sale-off-percent"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/sp108.webp);"></div>
-                                <h4 class="home-product-item_name">Quần Short Teelab Local Brand Unisex Special Collection Premium PS028</h4>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp1008.jpeg);"></div>
+                                <h4 class="home-product-item_name">Quần Túi Hộp Quần Legging Premium PS028</h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-old">500.000đ</span>
                                     <span class="home-product-item_price-current">385.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
-                                    </div>
+                                        <button class="btn-view"><a href="./sp1008.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>                                    </div>
                                 </div>
 
                                 <div class="home-product-item_action">
                                 </div>
                                 <div class="home-product-item_sale-off">
-                                    <span class="home-product-item_sale-off-percent">10%</span>
+                                    <span class="home-product-item_sale-off-percent">23%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/sp110.webp);"></div>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp1010.jpeg);"></div>
                                 <h4 class="home-product-item_name">Quần đùi Leninn Combat Shorts nam nữ Unisex</h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-current">550.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
-                                    </div>
+                                        <button class="btn-view"><a href="./sp1010.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>                                    </div>
+                                </div>
+                                <div class="home-product-item_action">
+                                </div>
+                                <div class="home-product-item_sale-off">
+                                    <span class="home-product-item_sale-off-percent"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/sp111.webp);"></div>
-                                <h4 class="home-product-item_name">Quần ống rộng local brand Pandax polime thun dài dây rút unisex phong cách hiphop màu đen</h4>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp1011.jpeg);"></div>
+                                <h4 class="home-product-item_name">Quần ống rộng polime thun dài dây rút unisex</h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-old">508.000đ</span>
                                     <span class="home-product-item_price-current">300.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
-                                    </div>
+                                        <button class="btn-view"><a href="./sp1011.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>                                    </div>
                                 </div>
 
                                 <div class="home-product-item_action">
                                 </div>
                                 <div class="home-product-item_sale-off">
-                                    <span class="home-product-item_sale-off-percent">10%</span>
+                                    <span class="home-product-item_sale-off-percent">41%</span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/sp112.webp);"></div>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp1012.jpeg);"></div>
                                 <h4 class="home-product-item_name">Quần dài ống rộng nam lưng thun thời trang</h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-current">1.760.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
-                                    </div>
+                                        <button class="btn-view"><a href="./sp1012.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>                                    </div>
+                                </div>
+                                <div class="home-product-item_action">
+                                </div>
+                                <div class="home-product-item_sale-off">
+                                    <span class="home-product-item_sale-off-percent"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/sp113.webp);"></div>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp1013.jpeg);"></div>
                                 <h4 class="home-product-item_name">QUẦN JOGGER ỐNG RỘNG SỌC TÚI HỘP THỂ THAO NAM NỮ UNISEX</h4>
                                 <div class="home-product-item_price">
-                                    <span class="home-product-item_price-current">560.000đ</span>
+                                    <span class="home-product-item_price-current">1.560.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
-                                    </div>
+                                        <button class="btn-view"><a href="./sp1013.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>                                    </div>
+                                </div>
+                                <div class="home-product-item_action">
+                                </div>
+                                <div class="home-product-item_sale-off">
+                                    <span class="home-product-item_sale-off-percent"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/sp114.webp);"></div>
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp1014.jpeg);"></div>
                                 <h4 class="home-product-item_name">MLB - Quần dài unisex ống rộng lưng thun Basic Athleisure Jersey</h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-current">2.790.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
-                                    </div>
+                                        <button class="btn-view"><a href="./sp1014.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>                                    </div>
+                                </div>
+                                <div class="home-product-item_action">
+                                </div>
+                                <div class="home-product-item_sale-off">
+                                    <span class="home-product-item_sale-off-percent"></span>
                                 </div>
                             </div>
                         </div>
                         <div class="grid_column-2-4">
                             <div class="home-product-item">
-                                <div class="home-product-item_img" style="background-image: url(img/115.webp);"></div>
-                                <h4 class="home-product-item_name">PUMA
+                                <div class="home-product-item_img" style="background-image: url(img/sanpham/sp280.jpg);"></div>
+                                <h4 class="home-product-item_name">
                                     Quần dài nam ống rộng lưng thun thời trang</h4>
                                 <div class="home-product-item_price">
                                     <span class="home-product-item_price-current">2.560.000đ</span>
                                     <div class="btn">
                                         <button class="btn-call js-call"> Liên Hệ </button>
-                                        <button class="btn-view">Xem ngay</button>
-                                    </div>
+                                        <button class="btn-view"><a href="./sp280.html"
+                                            style="text-decoration: none;color:black">Xem ngay</a></button>                                    </div>
+                                </div>
+                                <div class="home-product-item_action">
+                                </div>
+                                <div class="home-product-item_sale-off">
+                                    <span class="home-product-item_sale-off-percent"></span>
                                 </div>
                             </div>
                         </div>
@@ -493,18 +540,18 @@
                     <label for="hoten" class="modal-label">
                         Họ tên
                     </label>
-                    <input id="hoten" type="text" pattern="[a-z]" placeholder="Name" title="Chỉ sử dụng chữ"
+                    <input id="hoten" type="text"   placeholder="Name" title="Chỉ sử dụng chữ"
                         required class="modal-input">
 
                     <label for="sdt" class="modal-label">
                         SĐT
                     </label>
-                    <input id="sdt" type="tel" pattern="(+84|0)d{10}" placeholder="Phone Number" required
+                    <input id="sdt" type="tel" pattern="(+84|0)d{10}"  placeholder="Phone Number" required
                         class="modal-input">
                     <label for="sdt" class="modal-label">
                         Email
                     </label>
-                    <input id="email" type="email" placeholder="Email" class="modal-input">
+                    <input id="email" type="email"  placeholder="Email" class="modal-input">
                     <div class="w">
                         <input type="checkbox" required> XÁC NHẬN THÔNG TIN
                     </div>

@@ -4,35 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/do_an/total/ttlienhe/style.css">
-    <link rel="stylesheet" href="/do_an/total/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
 </head>
 <body>
     <div class="modal js-modal">
 
         <div class="modal-container">
-            <div class="modal-close">
+
+            <div class="modal-close js-close">
                 <i class="ti-close"></i>
             </div>
-
+<div class="all">
             <header class="modal-header">
-            Thông tin liên hệ
+                Thông tin liên hệ
             </header>
 
             <div class="modal-body">
-                <label for="hoten" class="modal-label">
-                    Họ tên
-                </label>
-                <input id="hoten" type="text" name="" placeholder="Name" requied class="modal-input">
+                <form action="">
+                    <label for="hoten" class="modal-label">
+                        Họ tên
+                    </label>
+                    <input id="hoten" type="text"  placeholder="Name" title="Chỉ sử dụng chữ"
+                        required class="modal-input">
 
-                <label for="sdt" class="modal-label">
-                    SĐT
-                </label>
-                <input id="sdt" type="number" name="" placeholder="Phone Number" class="modal-input">
-                
-                <input type="checkbox"> Thông tin  gửi cho chúng tôi sẽ được bảo mật.
+                    <label for="sdt" class="modal-label">
+                        SĐT
+                    </label>
+                    <input id="sdt" type="tel" pattern="(+84|0)d{10}"  placeholder="Phone Number" required
+                        class="modal-input">
+                    <label for="sdt" class="modal-label">
+                        Email
+                    </label>
+                    <input id="email" type="email"  placeholder="Email" class="modal-input">
+                    <div class="w">
+                        <input type="checkbox" required> XÁC NHẬN THÔNG TIN
+                    </div>
 
-                <button id="by-send">Gửi </button>
+                    <button id="call" class=" js-send" type="submit" value="Send">Gửi</button>
+                </form></div>
             </div>
         </div>
     </div>
